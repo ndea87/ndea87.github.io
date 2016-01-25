@@ -1,15 +1,17 @@
 body {
-	background-color: #0000FF;
+	background-color: #0000ff;
 }
-h1 {
+h1,h2 {
 	color: white;
 	font-family:Arial, sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
 p{
+	color:white;
 	font-family:Arial, sans-serif;
 	font-weight:normal;
 }	
+
 a
 	font-style:italic
 	text-decoration: none;
