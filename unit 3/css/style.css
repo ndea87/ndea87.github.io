@@ -1,0 +1,16 @@
+body {
+	background-color: #0000FF;
+}
+h1 {
+	color: white;
+	font-family:"American Typewriter", sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+p{
+	font-family:"American Typewriter", sans-serif;
+	font-weight:normal;
+}	
+a
+	font-style:italic
+	text-decoration: none;
+	
