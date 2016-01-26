@@ -1,7 +1,9 @@
 body {
-	background-color: #0000ff;
+	background-color: #45D1ff;
+	border-image-width: center
 }
-h1,h2 {
+h1,h2{
+	text-align: center;
 	color: white;
 	font-family:Arial, sans-serif;
 	font-weight:bold;
