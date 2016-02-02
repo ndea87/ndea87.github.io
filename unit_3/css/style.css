@@ -1,17 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
 body {
 	background-color: #45D1ff;
-	border-image-width: center
-}
+	font-family:'Arvo', serif;
+	
+
+
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
 h1,h2{
 	text-align: center;
 	color: white;
-	font-family:Arial, sans-serif;
+	font-family:'Arvo', serif;
 	font-weight:bold;
 	text-transform:uppercase;
+
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 p{
 	color:white;
-	font-family:Arial, sans-serif;
-	font-weight:normal;
+	font-family'Shadows Into Light', serif;
 }	
 
 a
