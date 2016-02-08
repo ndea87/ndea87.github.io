@@ -3,22 +3,23 @@ body {
 	background-color: #45D1ff;
 	font-family:'Arvo', serif;
 	
-
-
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
-h1,h2{
+h1{
 	text-align: center;
 	color: white;
 	font-family:'Arvo', serif;
 	font-weight:bold;
 	text-transform:uppercase;
+}
+
+p1{
+	font-style: italic;
+}
+
+
 
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 p{
 	color:white;
 	font-family'Shadows Into Light', serif;
 }	
-
-a
-	font-style:italic
-	text-decoration: none;
