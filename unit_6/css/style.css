@@ -9,6 +9,60 @@ body {
 	border: 2px solid black;
 }
 
+*,*:before, *:after {
+	-moz-box-sizing:
+	border-box; -webkit-box-sizing:
+	border-box;box-sizing:border-box;
+}
+
+body{ margin:0; }
+
+.columnsContainer,footer, header {
+	position: relative; 
+	margin: .5em;
+}
+
+.about, .motto, footer, header { border: 1px
+	solid #ccc; padding: 1.25em; }
+
+	.about { margin-bottom: .5em; }
+
+	.nav {
+		list-style: none;
+		margin-left: 0;
+		margin-bottom: 0;
+		padding-left: 0;
+	}
+
+.nav. li,
+.nav > li > a {
+	display: inline-block;
+	#display: inline;
+	zoom: 1;
+}
+
+.inline-items {
+	margin-top: 0;
+}
+
+.inline-items li {
+	margin-left: 0;
+	border-left: 1px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inline-items li:first-child {
+	margin-left: 0;
+	border: none;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.inline-items li:last-child {
+	padding-right: 0;
+}
+
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -16,7 +70,7 @@ body {
 }
 
 #left {
-	background-color: violet;
+	background-color: #E582A2;
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
@@ -24,12 +78,13 @@ body {
 }
 
 #right {
-	background-color: pink;
+	background-color: #E55B88;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
 	width: 62%;
 }
+
 
 .clearfix: after {
 	visibility: hidden;
@@ -39,28 +94,12 @@ body {
 	clear: both;
 	height: 0;
 }
-header {
-	background-color:#FFED74;
-	border: 1px black solid;
-	padding: 20px;
-	}
-nav{
-	background-color:#E8C66A;
-	border: 1px black solid;
-	padding: 10px;
-}
 
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 10px;
-}
 
-div/section{
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 10px;
-}
 }
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
 h1{
