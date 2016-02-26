@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 body {
 	background-color: #45D1ff;
 	font-family:'Arvo', serif;
-	
+}
 #wrapper{
-	width:960px
+	width:960px;
 	margin:0 auto;
 	border: 2px solid black;
 }
@@ -17,9 +19,15 @@ body {
 
 body{ margin:0; }
 
-.columnsContainer,footer, header {
-	position: relative; 
+.columnsContainer, header {
+	position: relative;
 	margin: .5em;
+}
+footer{
+	position:fixed;
+	bottom: 0;
+	width:100%;
+	height: 50px;
 }
 
 .about, .motto, footer, header { border: 1px
@@ -43,11 +51,10 @@ body{ margin:0; }
 		padding-left: 0;
 	}
 
-.nav. li,
-.nav > li > a {
+.nav li,.nav > li > a {
 	display: inline-block;
-	#display: inline;
-	zoom: 1;
+	/*#display: inline;*/
+	margin-right:5px;
 }
 
 .inline-items {
@@ -85,7 +92,6 @@ body{ margin:0; }
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	padding: 20px;
 }
 
 .clearfix: after {
@@ -121,7 +127,7 @@ body{ margin:0; }
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 50%;
+	width: 70%;
 }
 
 
@@ -140,7 +146,7 @@ footer{
 	padding: 10px;
 
 }
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
 h1{
 	text-align: center;
 	color: white;
@@ -153,7 +159,6 @@ h2{
 	text-align: center;
 }
 
-<style type="text/css">
 h2{
 	font-style: italic;
 	font-weight: normal;
@@ -164,12 +169,11 @@ img{
 	margin: 0 auto;
 	width: 50%;
 }
-}
 
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 p{
 	color:white;
-	font-family'Shadows Into Light', serif;
+	font-family:'Shadows Into Light', serif;
 }
 @media only screen and (max-width: 329px) {
 	body{
